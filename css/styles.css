@@ -157,6 +157,7 @@ img {
 .hero-button:hover,
 .hero-button:focus {
   background-color: var(--hover-btn-color);
+  border: none;
 }
 /*--------------------- title--------------------------------- */
 .feature-items {
@@ -197,28 +198,28 @@ img {
   display: flex;
   flex-wrap: wrap;
   margin-left: calc(-1 * var(--size-between));
-  padding-top: var(--size-top);
+
   padding-bottom: var(--size-to-line);
 }
 .directions-item > .list {
   flex-basis: calc(100% / 3 - var(--size-between));
   margin-left: var(--size-between);
 }
-
+.directions {
+  margin-bottom: var(--size-top);
+}
 /*------------------------- command ------------------------------*/
 .command {
   background: var(--command-background-color);
-}
-.command .section-title {
   padding-top: var(--size-to-line);
+  padding-bottom: var(--size-to-line);
 }
 .employees {
   display: flex;
   flex-wrap: wrap;
   margin-left: calc(-1 * var(--size-between));
 
-  padding-top: var(--size-top);
-  padding-bottom: var(--size-to-line);
+  margin-top: var(--size-top);
 }
 .employees > .list {
   flex-basis: calc(100% / 4 - var(--size-between));
@@ -244,6 +245,7 @@ img {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
+
   padding-bottom: 30px;
 
   color: var(--text-color);
@@ -283,12 +285,12 @@ img {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
+  border: none;
 }
 .filter {
   display: flex;
   justify-content: center;
-  padding-top: var(--size-to-line);
-  padding-bottom: var(--size-top);
+  margin-bottom: var(--size-top);
 }
 .filter .button {
   display: block;
@@ -309,6 +311,7 @@ img {
   margin-top: var(--size-between);
 }
 .exemples {
+  padding-top: var(--size-to-line);
   padding-bottom: var(--size-to-line);
 }
 .card {
