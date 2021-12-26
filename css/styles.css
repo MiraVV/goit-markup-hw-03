@@ -211,7 +211,6 @@ img {
   margin-left: var(--size-between);
 }
 .directions {
-  /* margin-bottom: var(--size-top); */
   padding-bottom: var(--size-to-line);
 }
 /*------------------------- command ------------------------------*/
@@ -224,7 +223,6 @@ img {
   display: flex;
   flex-wrap: wrap;
   margin-left: calc(-1 * var(--size-between));
-
   margin-top: var(--size-top);
 }
 .employees > .list {
@@ -238,11 +236,9 @@ img {
 .name-employee {
   font-weight: 500;
   font-size: 16px;
-
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-
   margin-bottom: 10px;
 }
 .position {
@@ -279,7 +275,6 @@ img {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-
   background-color: var(--second-btn-color);
   border-radius: 4px;
   border: none;
