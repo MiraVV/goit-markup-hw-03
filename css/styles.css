@@ -122,11 +122,11 @@ img {
 /* ---------------------hero-------------*/
 .hero {
   background-color: var(--bacground-color);
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .hero .container {
   text-align: center;
-  padding-top: 200px;
-  padding-bottom: 200px;
 }
 .hero-title {
   font-weight: 900;
@@ -143,6 +143,9 @@ img {
 }
 .hero-button {
   font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
   text-align: center;
   letter-spacing: 0.06em;
   padding: 10px 32px;
@@ -160,12 +163,15 @@ img {
   border: none;
 }
 /*--------------------- title--------------------------------- */
+
+.feature-list {
+  padding-top: var(--size-to-line);
+  padding-bottom: var(--size-to-line);
+}
 .feature-items {
   display: flex;
   flex-wrap: wrap;
   margin-left: calc(-1 * var(--size-between));
-  padding-top: var(--size-to-line);
-  padding-bottom: var(--size-to-line);
 }
 .feature-items > .list {
   flex-basis: calc(100% / 4 - var(--size-between));
@@ -193,20 +199,20 @@ img {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: var(--size-top);
 }
 .directions-item {
   display: flex;
   flex-wrap: wrap;
   margin-left: calc(-1 * var(--size-between));
-
-  padding-bottom: var(--size-to-line);
 }
 .directions-item > .list {
   flex-basis: calc(100% / 3 - var(--size-between));
   margin-left: var(--size-between);
 }
 .directions {
-  margin-bottom: var(--size-top);
+  /* margin-bottom: var(--size-top); */
+  padding-bottom: var(--size-to-line);
 }
 /*------------------------- command ------------------------------*/
 .command {
@@ -237,8 +243,7 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
 
-  padding-top: var(--size-between);
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 .position {
   font-size: 16px;
@@ -246,9 +251,11 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
 
-  padding-bottom: 30px;
-
   color: var(--text-color);
+}
+.item-name {
+  padding-top: var(--size-between);
+  padding-bottom: var(--size-between);
 }
 /* -----------------------------portfolio / works exemples---------------------------- */
 
@@ -303,7 +310,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   margin-left: calc(-1 * var(--size-between));
-  padding-top: calc(-1 * var(--size-between));
+  margin-top: calc(-1 * var(--size-between));
 }
 .list-exemples > .list {
   flex-basis: calc(100% / 3 - var(--size-between));
@@ -341,15 +348,13 @@ img {
 /*---------------------------------------- footer----------------------------  */
 .footer {
   background: #2f303a;
-}
-.footer .container {
   padding-top: 60px;
   padding-bottom: 60px;
 }
 .footer-logo {
   color: #ffffff;
   display: block;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 .footer-link {
   color: rgba(255, 255, 255, 0.6);
@@ -363,5 +368,5 @@ img {
   color: #ffffff;
 }
 .footer-contacts .list {
-  padding-top: 9px;
+  margin-top: 9px;
 }
